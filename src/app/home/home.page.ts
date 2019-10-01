@@ -7,6 +7,13 @@ import { Component } from '@angular/core';
 })
 export class HomePage {
 
+enteredReason = '';
+
+
   constructor() {}
+
+  onClick(){
+    alert('Button Clicked');
+  }
 
 }
